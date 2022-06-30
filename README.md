@@ -1,8 +1,9 @@
 # game
 Untuk memenuhi tugas akhir UAS praktikum pemograman
-#Nama: Muhamad Randi Septiansah
-#NIM: 1217050086
-#Teknik informatika B rombel G
+
+# Nama: Muhamad Randi Septiansah
+# NIM: 1217050086
+# Teknik informatika B rombel G
 
 ```bash
 #include<iostream>
