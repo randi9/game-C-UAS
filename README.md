@@ -1,3 +1,11 @@
+## Game isekai war
+GAME TYPE: textRPG
+
+# Nama: Muhamad Randi Septiansah
+# NIM : 1217050086
+# Kelas: teknik informatika B rombel G
+
+```bash
 #include<iostream>
 #include<windows.h>
 #include<string>
@@ -307,3 +315,4 @@ void LevelUp() {
 		HUD();  
 	}
 }
+```
