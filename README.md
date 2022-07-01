@@ -1,5 +1,6 @@
 ## Game isekai war
 GAME TYPE: textRPG
+https://youtu.be/KQit2kKNq3g
 
 # Nama: Muhamad Randi Septiansah
 # NIM : 1217050086
