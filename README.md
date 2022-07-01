@@ -98,7 +98,9 @@ void HUD() {
 	Sleep(500);
 	system("cls");
 
-	
+	cout << "\n  ===============================\n";
+	cout << " |              MENU             |\n";
+	cout << "  ===============================\n"; 
 	cout << "\nNama		: " << name;
 	cout << "\ndarah		: " << totalDarah;
 	cout << "\njenis		: " << race;
