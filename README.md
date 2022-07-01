@@ -1,11 +1,3 @@
-# game
-Untuk memenuhi tugas akhir UAS praktikum pemograman
-
-# Nama: Muhamad Randi Septiansah
-# NIM: 1217050086
-# Teknik informatika B rombel G
-
-```bash
 #include<iostream>
 #include<windows.h>
 #include<string>
@@ -48,6 +40,20 @@ int main(){
 	cout << "  |####  ######  ######## ##    ## ##     ## ####     ###  ###  ##     ## ##     ## |\n";
 	cout << "  |_________________________________________________________________________________|\n";
 
+	cout << "awal mula:\n";
+	cout << "Disuatu kampus ada seorang Mahasiwa yang sedang membuat game sampai menjelang magrib tiba,\n";
+	cout << "tiba tiba Mahasiwa itu ketiduran, dalam kepercayaan masyarakat sunda ketika ashar sampai\n";
+	cout << "menjelang magrib tidak boleh tidur, Mahasiswa itu tertidur karena mumetnya ngebenerin erorr.\n";
+	cout << "Ketika tidur Mahasiswa itu tiba tiba terbangun di padang rumput, rupanya ia masuk ke dunia game\n";
+	cout << "yang ia buat, Nantikan cerita selanjutnya perjalanan Mahasiswa berpetualang di isekai war!\n";
+
+	system("pause");
+	system("cls");
+	
+	cout << "\n  ===============================\n";
+	cout << " |  Buat Karakter Sesuka Anda!!  |\n";
+	cout << "  ===============================\n"; 
+
 	cout << "\nMasukan Nama Karakter: ";
 	cin >> name;
 	
@@ -83,13 +89,15 @@ int main(){
 void HUD() {
 	Sleep(500);
 	system("cls");
+
+	
 	cout << "\nNama		: " << name;
 	cout << "\ndarah		: " << totalDarah;
 	cout << "\njenis		: " << race;
 	cout << "\nGender		: " << sex;
 	cout << "\nlevel		: " << level;
 	cout << "\nXp		: " << xp;
-	cout << "\nxp to level	: " << nextLevel << endl;
+	cout << "\nxp ke level	: " << nextLevel << endl;
 
 	Moving();
 }
@@ -118,7 +126,7 @@ void Combat() {
 		cout << "\n";
 		cout << "1. Serang\n";
 		cout << "2. Tahan\n";
-		cout << "3. LARIIIII\n";
+		cout << "3. Kaburrrrrr\n";
 		cout << "\n";
 		cin >> playerAttack;
 
@@ -299,4 +307,3 @@ void LevelUp() {
 		HUD();  
 	}
 }
-```
